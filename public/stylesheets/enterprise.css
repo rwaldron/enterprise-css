@@ -12,6 +12,7 @@ html {
 }
 
 body {
+	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8), transparent);
 	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, 0.8)), color-stop(1, transparent));
 	background-repeat: repeat-x;
 	margin-bottom: 60px;
@@ -24,6 +25,10 @@ a {
 
 em {
 	font-style: normal;
+}
+
+img {
+	border: 0;
 }
 
 li {
@@ -61,10 +66,11 @@ ul {
 	font-size: 82px;
 }
 
-#example pre {
+#example {
 	background-color: #fff;
 	background-image: -moz-linear-gradient(top, #fff, #eee);
 	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(1, #eee));
+	-moz-border-radius: 20px;
 	border-radius: 20px;
 	-moz-box-shadow: 0px 0px 15px #000;
 	-webkit-box-shadow: 0px 0px 15px #000;
@@ -109,7 +115,10 @@ footer {
 	color: #222;
 	font-size: 46px;
 	text-decoration: none;
+	-moz-transition: color 0.25s ease-in-out;
+	-o-transition: color 0.25s ease-in-out;
 	-webkit-transition: color 0.25s ease-in-out;
+	transition: color 0.25s ease-in-out;
 }
 
 #contribute {
@@ -120,17 +129,20 @@ footer {
 	right: 0;
 	position: absolute;
 	top: 0;
+	-moz-transition: opacity 0.25s ease-in-out;
+	-o-transition: opacity 0.25s ease-in-out;
 	-webkit-transition: opacity 0.25s ease-in-out;
+	transition: opacity 0.25s ease-in-out;
 }
 
 #fork:hover {
 	opacity: 0.75;
 }
 
-code .comment { color: #999; }
-code .id,
-code .class { color: #f92672; }
-code .tag { color: #333; }
-code .rule .keyword { color: #44a0ef; }
-code .rule .value { color: #86c20e; }
-code .rule .number { color: #ae81ff; }
+pre .comment { color: #999; }
+pre .id,
+pre .class { color: #f92672; }
+pre .tag { color: #333; }
+pre .rule .keyword { color: #44a0ef; }
+pre .rule .value { color: #86c20e; }
+pre .rule .number { color: #ae81ff; }
