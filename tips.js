@@ -75,4 +75,14 @@ tips.push({
 	]
 });
 
+tips.push({
+	author: 'chpwn',
+	message: 'Non-Existent Because we use <em>Tables</em>',
+	example: [
+		'<table border=0>',
+		'<tr><td><table><tr><td></td></tr></table></td></tr>',
+		'</table>'
+	]
+});
+
 module.exports = tips;
