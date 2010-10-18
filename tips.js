@@ -27,4 +27,52 @@ tips.push({
 	]
 });
 
+tips.push({
+	author: 'bentruyman',
+	message: '<em>Organize</em> Properties/Value Pairs by Length',
+	example: [
+		'.container {',
+		'	color: #fff;',
+		'	width: 900px;',
+		'	height: 300px;',
+		'	padding: 1px 0;',
+		'	margin: 3px 2px;',
+		'	display: inline-block;',
+		'	background-color: #333333;',
+		'	background-repeat: no-repeat;',
+		'	background-position: 100px -50px;',
+		'}'
+	]
+});
+
+tips.push({
+	author: 'bentruyman',
+	message: 'Creating As Many Classes As Possible to <em>Abstract</em> out Actual Implementation',
+	example: [
+		'.bold {',
+		'	font-weight: bold;',
+		'}',
+		'',
+		'.float-left {',
+		'	float: left;',
+		'}',
+		'',
+		'.float-right {',
+		'	float: right;',
+		'}',
+		'',
+		'.italic {',
+		'	font-style: italic;',
+		'}',
+		'',
+		'.red-text {',
+		'	color: #ff0000;',
+		'}',
+		'',
+		'.text-aligned-right {',
+		'	text-align: right;',
+		'}'
+	]
+});
+
 module.exports = tips;
