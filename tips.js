@@ -88,7 +88,7 @@ tips.push({
 
 tips.push({
     author: 'artsyca',
-    message: 'Use meticulously nested style rules including at least two ids per line',
+    message: 'Use <em>meticulously</em> nested style rules including at least two ids per line',
     example: [
         '#concept #permanent .recommend {...}',
         '#concept #highlightRec.recommend {left:0px;}',
@@ -108,13 +108,13 @@ tips.push({
         '#concept #compare .object .size {...}',
         '#concept #compare .object .features {...}',
         '#concept #compare .object .features li {...}',
-        '#concept #compare .object div.order {...}',
+        '#concept #compare .object div.order {...}'
     ]
 });
 
 tips.push({
 	author: 'artsyca',
-	message: 'Avoid defaults at all costs and use precise pixel or % sizes for all fonts and spacing',
+	message: 'Avoid defaults at all costs and use <em>precise</em> pixel or % sizes for all fonts and spacing',
 	example: [
 		'p.messageText{',
 		'	font-size: 12.5px;',
